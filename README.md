@@ -15,3 +15,5 @@
     * 通过zip文件安装
       * 添加一个换件变量名为SBT_HOME
       * 向path中添加%SBT_HOME%\bin
+      * 下面是解压后的目录结构只包含bin、conf、lib三个目录
+![解压后的zip文件](./images/QQ截图20170609012157.jpg)
