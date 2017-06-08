@@ -27,7 +27,7 @@
   * 外传raspberry pi 3b + cent os + oracle jdk 8 安装过程
     * 下载arm版的jdk 64位和32位 如果能用64位 我就保留 64位
     * 通过flashfxp上传到root用户的家目录
-    * 解压到指定目录
+    * 解压到指定目录（**根据具体下载后的文件名修改**）
       * sudo tar zxvf jdk-8-linux-arm-vfp-hflt.tar.gz -C /opt
     * 设置默认的java和javac到新安装的jdk8上
       * sudo update-alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_131/bin/javac 1
@@ -37,3 +37,5 @@
     * 测试一下是否安装成功
       * java -version
       * javac -version
+    * 64位报错
+      *  -bash: /usr/bin/javac: cannot execute binary file
